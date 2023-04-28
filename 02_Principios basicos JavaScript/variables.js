@@ -27,7 +27,7 @@ const constatn = 'hola'
 
 
 // Ejempllo con let y var
-// let i = 0
+let i = 0
 // console.log(i)
 // function foo(){
 //   i=1
@@ -35,24 +35,26 @@ const constatn = 'hola'
 //     console.log(i)
 //   }
 // }
+// foo()
 
-// function foo(){
-//   var i=0
-//   if(true){
-//     var i = 1
-//     console.log(i)
-//   }
-//   console.log(i)
-// }
+function foo(){
+  var i=0
+  if(true){
+    var i = 1
+    console.log(i)
+  }
+  console.log(i)
+}
+foo()
 
-// function foo2(){
-//   if(true){
-//     let i = 1
-//     // i = 6
-//     // console.log(i)
-//   }
-//    console.log(i)
-// }
+function foo2(){
+  if(true){
+    let i = 1
+    // i = 6
+    // console.log(i)
+  }
+   console.log(i)
+}
 // foo2()
 
 //Mutabilidad
